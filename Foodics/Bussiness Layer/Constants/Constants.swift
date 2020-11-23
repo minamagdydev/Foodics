@@ -28,4 +28,4 @@ let MAX_CELL_COUNT = 20
 
 let DARK_GRAY_COLOR = UIColor.init(red: 43, green: 42, blue: 41)
 
-let YELLOW_COLOR = UIColor.init(red: 206, green: 219, blue: 29)
+let Foodics_COLOR = UIColor.init(red: 86, green: 15, blue: 162)

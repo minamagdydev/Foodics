@@ -96,10 +96,4 @@ class NetworkService: NSObject {
                }
            }
        }
-    
-  
-
-    
-    
-    
 }

@@ -45,7 +45,7 @@ class ProductDetailsViewController: GeneralViewController {
     func populateData() {
         
         cancelButton.setTitle(Utils.getStringWithTag(tag: "Cancel"), for: .normal)
-        cancelButton.backgroundColor = YELLOW_COLOR
+        cancelButton.backgroundColor = Foodics_COLOR
         cancelButton.setTitleColor(DARK_GRAY_COLOR, for: .normal)
                 
         cancelButton.roundRect(radius: 15)
@@ -55,6 +55,7 @@ class ProductDetailsViewController: GeneralViewController {
         priceLabel.textColor = DARK_GRAY_COLOR
         descriptionTextView.textColor = DARK_GRAY_COLOR
         descriptionLabel.textColor = DARK_GRAY_COLOR
+        descriptionLabel.isHidden = (product.productDescription == "")
         
         descriptionLabel.text = Utils.getStringWithTag(tag: "Description")
 

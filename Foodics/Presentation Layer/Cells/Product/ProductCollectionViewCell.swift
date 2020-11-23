@@ -17,7 +17,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
                 
-        backgroundColor = YELLOW_COLOR
+        backgroundColor = Foodics_COLOR
         titleLabel.textColor = DARK_GRAY_COLOR
         titleLabel.backgroundColor = .clear
     }

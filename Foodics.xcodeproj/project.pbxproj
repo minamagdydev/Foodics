@@ -39,7 +39,19 @@
 		18763DFA23D916A1009DA486 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763DF923D916A1009DA486 /* ProductDetailsViewController.swift */; };
 		18763E0623D92503009DA486 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763E0523D92503009DA486 /* DataManager.swift */; };
 		24A194F3AB234219E3F524B6 /* Pods_Foodics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBB920902FAE2D1E7DA26BE /* Pods_Foodics.framework */; };
+		39D49F38256C5E0E00657CBE /* FoodicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D49F37256C5E0E00657CBE /* FoodicsTests.swift */; };
+		39D49F40256C5E2E00657CBE /* DataManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D49F3F256C5E2E00657CBE /* DataManagerTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39D49F3A256C5E0E00657CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184DEAB123D8C33300698BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184DEAB823D8C33300698BDA;
+			remoteInfo = Foodics;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		182E21FD23D8E7F4006A85E1 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -75,6 +87,10 @@
 		18763DF623D90CEA009DA486 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
 		18763DF923D916A1009DA486 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		18763E0523D92503009DA486 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		39D49F35256C5E0E00657CBE /* FoodicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D49F37256C5E0E00657CBE /* FoodicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodicsTests.swift; sourceTree = "<group>"; };
+		39D49F39256C5E0E00657CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D49F3F256C5E2E00657CBE /* DataManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManagerTest.swift; path = "Foodics/Bussiness Layer/Utils/seSwift/DataManagerTest.swift"; sourceTree = SOURCE_ROOT; };
 		430E2534904B4384C621BAB1 /* Pods-Foodics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foodics/Pods-Foodics.release.xcconfig"; sourceTree = "<group>"; };
 		6BBB920902FAE2D1E7DA26BE /* Pods_Foodics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B246A8C053599F38BE894FB7 /* Pods-Foodics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foodics/Pods-Foodics.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +102,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				24A194F3AB234219E3F524B6 /* Pods_Foodics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D49F32256C5E0E00657CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				184DEABB23D8C33300698BDA /* Foodics */,
+				39D49F36256C5E0E00657CBE /* FoodicsTests */,
 				184DEABA23D8C33300698BDA /* Products */,
 				20E82CD7AE9F2FCE413E6DDB /* Pods */,
 				6D4D5810C9092512DA385128 /* Frameworks */,
@@ -131,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				184DEAB923D8C33300698BDA /* Foodics.app */,
+				39D49F35256C5E0E00657CBE /* FoodicsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,6 +327,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		39D49F36256C5E0E00657CBE /* FoodicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				39D49F3F256C5E2E00657CBE /* DataManagerTest.swift */,
+				39D49F37256C5E0E00657CBE /* FoodicsTests.swift */,
+				39D49F39256C5E0E00657CBE /* Info.plist */,
+			);
+			path = FoodicsTests;
+			sourceTree = "<group>";
+		};
 		6D4D5810C9092512DA385128 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +367,24 @@
 			productReference = 184DEAB923D8C33300698BDA /* Foodics.app */;
 			productType = "com.apple.product-type.application";
 		};
+		39D49F34256C5E0E00657CBE /* FoodicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D49F3E256C5E0E00657CBE /* Build configuration list for PBXNativeTarget "FoodicsTests" */;
+			buildPhases = (
+				39D49F31256C5E0E00657CBE /* Sources */,
+				39D49F32256C5E0E00657CBE /* Frameworks */,
+				39D49F33256C5E0E00657CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D49F3B256C5E0E00657CBE /* PBXTargetDependency */,
+			);
+			name = FoodicsTests;
+			productName = FoodicsTests;
+			productReference = 39D49F35256C5E0E00657CBE /* FoodicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -347,6 +400,10 @@
 				TargetAttributes = {
 					184DEAB823D8C33300698BDA = {
 						CreatedOnToolsVersion = 11.3;
+					};
+					39D49F34256C5E0E00657CBE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 184DEAB823D8C33300698BDA;
 					};
 				};
 			};
@@ -364,6 +421,7 @@
 			projectRoot = "";
 			targets = (
 				184DEAB823D8C33300698BDA /* Foodics */,
+				39D49F34256C5E0E00657CBE /* FoodicsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,6 +437,13 @@
 				184DEAFB23D8D6D700698BDA /* Localizable.strings in Resources */,
 				184DEAC623D8C33500698BDA /* Assets.xcassets in Resources */,
 				184DEAC423D8C33300698BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D49F33256C5E0E00657CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +537,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39D49F31256C5E0E00657CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D49F38256C5E0E00657CBE /* FoodicsTests.swift in Sources */,
+				39D49F40256C5E2E00657CBE /* DataManagerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D49F3B256C5E0E00657CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184DEAB823D8C33300698BDA /* Foodics */;
+			targetProxy = 39D49F3A256C5E0E00657CBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		184DEAC223D8C33300698BDA /* Main.storyboard */ = {
@@ -650,6 +732,44 @@
 			};
 			name = Release;
 		};
+		39D49F3C256C5E0E00657CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..FoodicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodics.app/Foodics";
+			};
+			name = Debug;
+		};
+		39D49F3D256C5E0E00657CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..FoodicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodics.app/Foodics";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -667,6 +787,15 @@
 			buildConfigurations = (
 				184DEACE23D8C33500698BDA /* Debug */,
 				184DEACF23D8C33500698BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D49F3E256C5E0E00657CBE /* Build configuration list for PBXNativeTarget "FoodicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D49F3C256C5E0E00657CBE /* Debug */,
+				39D49F3D256C5E0E00657CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -38,7 +38,7 @@ class CategoriesViewController: GeneralViewController,PagerViewControllerDelegat
         
         let prevButton = UIBarButtonItem(title: "Previous", style: .plain, target: self, action: #selector(previousButtonClicked))
         let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonClicked))
-
+    
         prevButton.tintColor  = DARK_GRAY_COLOR
         nextButton.tintColor  = DARK_GRAY_COLOR
 
