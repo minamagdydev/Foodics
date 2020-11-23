@@ -2,7 +2,7 @@
 
 Project written in Swift 5 code 
 
-![](splach.png){:height="50%" width="50%"}
+![](splach.png){:height="700px" width="400px"}
 ![](screenone.png){:height="50%" width="50%"}
 
 
