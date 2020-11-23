@@ -2,8 +2,8 @@
 
 Project written in Swift 5 code 
 
-![](splach.png =250x250)
-![](screenone.png =250x250)
+![](splach.png){:height="50%" width="50%"}
+![](screenone.png){:height="50%" width="50%"}
 
 
 
