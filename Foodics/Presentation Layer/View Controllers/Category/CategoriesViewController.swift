@@ -29,7 +29,7 @@ class CategoriesViewController: GeneralViewController,PagerViewControllerDelegat
         
         self.title = Utils.getStringWithTag(tag: "Categories")
         
-        self.navigationController?.navigationBar.tintColor = DARK_GRAY_COLOR
+        self.navigationController?.navigationBar.tintColor = .black
 
         setCategoryPages(dataArr:DataManager.shared.categoriesArr)
     }
@@ -38,9 +38,9 @@ class CategoriesViewController: GeneralViewController,PagerViewControllerDelegat
         
         let prevButton = UIBarButtonItem(title: "Previous", style: .plain, target: self, action: #selector(previousButtonClicked))
         let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonClicked))
-
-        prevButton.tintColor  = DARK_GRAY_COLOR
-        nextButton.tintColor  = DARK_GRAY_COLOR
+    
+        prevButton.tintColor  = .black
+        nextButton.tintColor  = .black
 
         navigationItem.rightBarButtonItem = nextButton
         navigationItem.leftBarButtonItem = prevButton

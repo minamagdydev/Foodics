@@ -43,8 +43,6 @@ class ProductViewController: CategoryViewController {
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        self.navigationController?.popViewController(animated: true)
-        
         if let _ = delegate {
             
             delegate?.didSelectProduct(product: productsArr[indexPath.row])

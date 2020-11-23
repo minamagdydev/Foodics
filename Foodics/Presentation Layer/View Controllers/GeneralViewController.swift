@@ -25,7 +25,6 @@ class GeneralViewController: UIViewController {
     //MARK: Redirection
        
     func goToCategoriesScreen() {
-        
         setRoot(StoryboardId: "Main", ScreenId: "CategoriesNavigationViewController")
     }
     

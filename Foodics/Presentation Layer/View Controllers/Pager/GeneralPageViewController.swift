@@ -1,3 +1,10 @@
+//
+//  GeneralViewController.swift
+//  Foodics
+//
+//  Created by Mina on 11/22/20.
+//  Copyright © 2020 Mina. All rights reserved.
+//
 
 import UIKit
 
@@ -36,9 +43,7 @@ class GeneralPageViewController: UIPageViewController , UIPageViewControllerDele
     }
     
     public func getNumberOfViewControllers() -> Int {
-        
         return pages.count
-        
     }
     
     public func addViewControllers(viewControllers: [UIViewController]) {
@@ -77,9 +82,6 @@ class GeneralPageViewController: UIPageViewController , UIPageViewControllerDele
                 setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
             }
         }
-        
-        
-        // Do any additional setup after loading the view.
     }
 
 

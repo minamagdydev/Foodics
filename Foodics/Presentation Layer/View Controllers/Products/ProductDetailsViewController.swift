@@ -45,16 +45,17 @@ class ProductDetailsViewController: GeneralViewController {
     func populateData() {
         
         cancelButton.setTitle(Utils.getStringWithTag(tag: "Cancel"), for: .normal)
-        cancelButton.backgroundColor = YELLOW_COLOR
-        cancelButton.setTitleColor(DARK_GRAY_COLOR, for: .normal)
+        cancelButton.backgroundColor = Foodics_COLOR
+        cancelButton.setTitleColor(Foodics_SecondColor, for: .normal)
                 
         cancelButton.roundRect(radius: 15)
         
-        titleLabel.textColor = DARK_GRAY_COLOR
-        categoryLabel.textColor = DARK_GRAY_COLOR
-        priceLabel.textColor = DARK_GRAY_COLOR
-        descriptionTextView.textColor = DARK_GRAY_COLOR
-        descriptionLabel.textColor = DARK_GRAY_COLOR
+        titleLabel.textColor = UIColor.darkGray
+        categoryLabel.textColor = UIColor.darkGray
+        priceLabel.textColor = UIColor.darkGray
+        descriptionTextView.textColor = UIColor.darkGray
+        descriptionLabel.textColor = UIColor.darkGray
+        descriptionLabel.isHidden = (product.productDescription == "")
         
         descriptionLabel.text = Utils.getStringWithTag(tag: "Description")
 

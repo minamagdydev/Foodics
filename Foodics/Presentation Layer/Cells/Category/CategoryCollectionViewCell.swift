@@ -17,12 +17,9 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        titleBackView.backgroundColor = YELLOW_COLOR
-        titleLabel.textColor = DARK_GRAY_COLOR
-        
+        titleBackView.backgroundColor = Foodics_COLOR
+        titleLabel.textColor = Foodics_SecondColor
         titleBackView.roundRect(radius: 15)
-                
-        // Initialization code
     }
 
     func setData(category:Category) {

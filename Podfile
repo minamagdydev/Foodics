@@ -8,12 +8,9 @@ target 'Foodics' do
   # Pods for Foodics
 
   pod 'SDWebImage'
-  
   pod 'MBProgressHUD', '~> 1.0.0'
-  
   pod 'Alamofire'
   pod 'SwiftyJSON', '~> 4.0'
-
   pod "PromiseKit", "~> 6.8"
 
 end
