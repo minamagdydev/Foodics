@@ -4,7 +4,7 @@
 Project written in Swift 5 code built using the MVVM design pattern ,A simple app that connects to elmenus mock API to display
 a list of tags and menu items for each tag
 
-![](ezgif.com-video-to-gif-2.gif)
+![](splach.png)
 
 
 
