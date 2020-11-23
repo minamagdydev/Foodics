@@ -1,10 +1,9 @@
 # Foodics
-# Elmenus Task
 
-Project written in Swift 5 code built using the MVVM design pattern ,A simple app that connects to elmenus mock API to display
-a list of tags and menu items for each tag
+Project written in Swift 5 code 
 
-![](splach.png)
+![](splach.png =250x250)
+![](screenone.png =250x250)
 
 
 
@@ -22,31 +21,19 @@ install cocoapods
 
 ## Built With
 
-* [Moya ]() - network layer
-* [reachability ]() - network layer
-* [hero]() - animation
-* [Kingfisher]() - cashe image
-* [nimblie and quick]() - unit test
-please check testing Coverage 
-![](Screen.png)
-### main Layers
-
-Project written in Swift 5 code built using the MVVM
-
-ViewModel - view - model - Network Layer - Caching - Coordinators
-
-### Architecture:
-MVVM design pattern :
-
-Model is a class that declares properties for managing business data
-
-View is represented by the UIView or UIViewController objects, accompanied with their .xib and .storyboard files, which should only display prepared data.
-
-ViewModel The viewModel is at the heart of the MVVM design pattern and provides the connection between the business logic and the view/view controller. The view (UI) responds to user input by passing input data (defined by the model) to the viewModel. In turn, the viewModel evaluates the input data and responds with an appropriate UI presentation according business logic workflow.
+* [Alamofire ]() - network layer
+* [SwiftyJSON ]() - decode encode data
+* [MBProgressHUD]() 
+* [SDWebImage]() - cashe image
+* [PromiseKit]() - used  as process chaining framework. It was used for api handling.
 
 ### Features:
-Fetch list of tags from mock api
+![](unittest.png)
 
-Fetch list of items based on tag name from mock api
+unit test 
 
-cache the API response and display it in offline mode.
+Data Persistence use NSKeyarchiver where I stored the response object to it matching api url
+
+Error Handling use alerts + related to the first point
+
+Design Patterns  Singleton for the api & data manager , facade in mbprogresshud & sd_webimage
