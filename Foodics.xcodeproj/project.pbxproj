@@ -396,7 +396,7 @@
 				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = mohamed;
+				ORGANIZATIONNAME = Mina;
 				TargetAttributes = {
 					184DEAB823D8C33300698BDA = {
 						CreatedOnToolsVersion = 11.3;

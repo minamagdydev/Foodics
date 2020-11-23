@@ -41,6 +41,21 @@ class TestSplachData: XCTestCase {
         
     }
     
-    
+    func test_Init_arrayOfProductsCount_EqualZero() {
+           let count = sut.arrayOfProducts.count
+           XCTAssertEqual(count, 0, "should return 0")
+       }
+       
+       func test_AfterCallProducts_countNotEqualZero() {
+           
+           let exp = expectation(description: "Loading categories")
+           sut.getProducts() {
+               exp.fulfill()
+           }
+           waitForExpectations(timeout: 10)
+           let count = sut.arrayOfProducts.count
+           XCTAssertNotEqual(count, 0)
+           
+       }
     
 }

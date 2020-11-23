@@ -16,6 +16,7 @@ class SplashViewController: GeneralViewController {
     
     @IBOutlet weak var loader: UIActivityIndicatorView!
     var arrayOfCategory = [Category]()
+    var arrayOfProducts = [Product]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,7 +63,7 @@ class SplashViewController: GeneralViewController {
         
     }
     
-    func getProducts() {
+    func getProducts(finished: @escaping () -> () = {}) {
         
         NetworkService.shared.getProducts()
             
@@ -73,7 +74,8 @@ class SplashViewController: GeneralViewController {
                 let response = json as! Response
                 
                 DataManager.shared.productsArr = response.data as! [Product]
-                
+                self.arrayOfProducts = response.data as! [Product]
+                finished()
                 self.goToCategoriesScreen()
                 
         }
@@ -89,6 +91,7 @@ class SplashViewController: GeneralViewController {
                     self.goToCategoriesScreen()
                 }
             }
+            finished()
         }
     }
     
