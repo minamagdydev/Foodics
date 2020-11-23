@@ -8,8 +8,8 @@
 **JSON** : Used in data parsing on the api level
 
 **Error Handling** : alerts + related to the first point
+**Component Libraries**	
 
-**Design Patterns**
 
 Singleton         - api & data manager .
 
