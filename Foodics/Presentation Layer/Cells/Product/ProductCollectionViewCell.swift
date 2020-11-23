@@ -18,7 +18,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
         // Initialization code
                 
         backgroundColor = Foodics_COLOR
-        titleLabel.textColor = DARK_GRAY_COLOR
+        titleLabel.textColor = Foodics_SecondColor
         titleLabel.backgroundColor = .clear
     }
     

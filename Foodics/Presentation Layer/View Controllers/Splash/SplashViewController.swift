@@ -25,7 +25,7 @@ class SplashViewController: GeneralViewController {
       
       override func initialiseLayout() {
           
-        self.loader.color = DARK_GRAY_COLOR
+        self.loader.color = Foodics_SecondColor
         getCategories()
           
       }

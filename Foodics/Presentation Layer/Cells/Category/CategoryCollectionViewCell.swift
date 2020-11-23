@@ -18,7 +18,7 @@ class CategoryCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         
         titleBackView.backgroundColor = Foodics_COLOR
-        titleLabel.textColor = DARK_GRAY_COLOR
+        titleLabel.textColor = Foodics_SecondColor
         titleBackView.roundRect(radius: 15)
     }
 
