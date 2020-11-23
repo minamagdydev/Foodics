@@ -1,17 +1,25 @@
 
-**Delegate & protocols**: used in displaying categories & products data + delegate on product selection
+**SWVL Movies Task**	
 
-**Data Persistence** : NSKeyarchiver where I stored the response object to it matching api url
+Project written in Swift 4 code built using the MVVM design pattern
+, When search in the list , it sorted by year and each year hold at most the top rated 5 movies  . (i forgot to put it in sections)
 
-**OOP** : Inheritance, Interface ...
 
-**JSON** : Used in data parsing on the api level
 
-**Error Handling** : alerts + related to the first point
 **Component Libraries**	
 
 
-Singleton         - api & data manager .
+SdWebImage : Download and cached images
 
-facade           - mbprogresshud & sd_webimage .
+Cosmos : draw ratings
+
+
+
+
+**Project Overview** (Main Files)
+
+
+swvlSorter.swift	         - sorting class based on merge sort algorithm to optimize sort.
+
+SWVLFileReader.swift      - get data from local file .
 
